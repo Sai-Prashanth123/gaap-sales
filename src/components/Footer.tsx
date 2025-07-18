@@ -7,13 +7,13 @@ const Footer = () => {
   };
 
   return (
-    <footer id="contact" className="py-12 bg-background border-t border-border">
+    <footer id="contact" className="py-12 border-t border-border" style={{ backgroundColor: '#14161A' }}>
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
-        <div className="grid md:grid-cols-3 gap-8 items-center">
+        <div className="grid md:grid-cols-3 gap-8 items-start">
           {/* Brand */}
-          <div className="space-y-2">
+          <div className="space-y-2 text-left">
             <div className="font-space font-bold text-2xl text-foreground">
-              Nexus
+              GAAP
             </div>
             <p className="text-sm text-muted-foreground font-inter">
               AI-powered sales intelligence
@@ -21,23 +21,23 @@ const Footer = () => {
           </div>
 
           {/* Links */}
-          <div className="flex justify-center space-x-8">
+          <div className="flex flex-col md:flex-row md:justify-center md:items-center space-y-2 md:space-y-0 md:space-x-8 text-left md:text-center">
             <button 
               onClick={() => scrollToSection('waitlist')}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 font-inter"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 font-inter text-left md:text-center"
             >
-              Privacy Policy
+              Features
             </button>
             <button 
               onClick={() => scrollToSection('waitlist')}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 font-inter"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 font-inter text-left md:text-center"
             >
-              Terms
+              contact
             </button>
           </div>
 
           {/* Credit */}
-          <div className="flex items-center justify-end space-x-2 text-sm text-muted-foreground">
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-start md:justify-end space-y-2 md:space-y-0 md:space-x-2 text-sm text-muted-foreground text-left md:text-right">
             <span className="font-inter">Made with</span>
             <Heart className="w-4 h-4 text-destructive fill-current" />
             <span className="font-inter">by sales pros, for sales pros.</span>
@@ -45,9 +45,9 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="mt-8 pt-8 border-t border-border text-center">
+        <div className="mt-8 pt-8 border-t border-border text-left md:text-center">
           <p className="text-sm text-muted-foreground font-inter">
-            © 2025 Nexus AI. All rights reserved.
+            © 2025 GAAP . All rights reserved.
           </p>
         </div>
       </div>
