@@ -20,7 +20,7 @@ const HeroSection = () => {
         />
       </div>
       
-      <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-12 sm:py-20 text-center z-10 -mt-10 sm:-mt-20">
+      <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-12 sm:py-20 text-center z-10 -mt-10 sm:-mt-20 pt-20 lg:pt-40">
         {/* Coming Soon Badge */}
         <div className="inline-flex items-center justify-center mb-6 sm:mb-8">
           <span className="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-5 py-2.5 sm:px-6 sm:py-2 rounded-full text-base sm:text-sm font-medium">
@@ -29,16 +29,14 @@ const HeroSection = () => {
         </div>
 
         {/* Main Heading - Improved mobile typography */}
-        <h1 className="text-[48px] leading-[1.1] font-bold text-white mb-6 sm:text-6xl md:text-7xl lg:text-[100px] xl:text-[120px] sm:leading-tight sm:mb-8">
-          <span className="block">Turn Every Sales</span>
-          <span className="block">Rep into Top Closer</span>
+        <h1 className="text-[32px] sm:text-6xl md:text-7xl lg:text-[80px] xl:text-[100px] font-bold text-white mb-6 sm:leading-tight sm:mb-8 leading-[1.5] sm:leading-[1.1] w-full max-w-screen-xl mx-auto text-center">
+          <span className="block whitespace-nowrap">Instant Objection</span>
+          <span className="block whitespace-nowrap">Help In Sales Meetings</span>
         </h1>
-        
         {/* Subtitle - Better mobile readability */}
-        <p className="text-[18px] leading-[1.6] font-light text-white/90 max-w-[340px] mx-auto mb-10 sm:text-[28px] sm:font-light sm:text-white/80 sm:leading-relaxed sm:max-w-6xl sm:mb-12">
-          <span className="block sm:inline sm:whitespace-nowrap">Own your calls. Close more deals. </span>
-          <span className="block sm:inline sm:whitespace-nowrap">GAAP is the first full-stack sales </span>
-          <span className="block sm:inline sm:whitespace-nowrap">co-pilot with meeting intelligence.</span>
+        <p className="text-[18px] leading-[1.6] font-light text-white/90 max-w-[340px] mx-auto mb-10 sm:text-[28px] sm:font-light sm:text-white/80 sm:leading-relaxed sm:max-w-6xl sm:mb-12 text-center">
+          <span className="block">Own your calls. Close more deals.GAAP is the first full-stack sales co-pilot</span>
+          <span className="block"> with meeting intelligence.</span>
         </p>
 
         {/* CTA Button - Larger for mobile */}

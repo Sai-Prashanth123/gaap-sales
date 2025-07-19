@@ -4,15 +4,15 @@ const ProblemStatementSection = () => {
   const problems = [
     {
       icon: <Clock className="w-8 h-8" />,
-      text: "Proof points & case studies get forgotten."
+      text: "They forget what to say."
     },
     {
       icon: <X className="w-8 h-8" />,
-      text: "Reps freeze on tough objections."
+      text: "They get stuck on tough questions."
     },
     {
       icon: <TrendingDown className="w-8 h-8" />,
-      text: "Critical moments slip away unnoticed."
+      text: "They miss important moments."
     }
   ];
 
@@ -75,7 +75,7 @@ const ProblemStatementSection = () => {
                     too late.
                   </h3>
                   <p className="text-lg text-muted-foreground font-inter">
-                    You need real-time help during the conversation.
+                  You need support while the call is happening.
                   </p>
                 </div>
               </div>
